@@ -1,0 +1,1 @@
+START /MIN /B php -S localhost:8000 -t public/ > log.txt 2>&1

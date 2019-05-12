@@ -1,0 +1,19 @@
+
+// Variables
+@import "~bulma/sass/utilities/_all";
+@import 'variables';
+
+// Framework
+@import "~bulma";
+@import "~buefy/src/scss/buefy";
+
+#app {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+
+    > main {
+        flex-grow: 1;
+        padding: 1.5rem 0;
+    }
+}

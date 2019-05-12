@@ -1,0 +1,23 @@
+{
+    "name": "gerasimovs/phonebook",
+    "description": "PhoneBook SPA",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sergey Gerasimov",
+            "email": "mrteos@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "symfony/routing": "^4.4@dev",
+        "symfony/http-foundation": "^4.4@dev",
+        "vlucas/phpdotenv": "^3.3@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    }
+}
