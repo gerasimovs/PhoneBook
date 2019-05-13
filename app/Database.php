@@ -16,8 +16,6 @@ class Database
     {
         $settings = $this->getPDOSettings();
         $this->pdo = new PDO($settings['dsn'], $settings['user'], $settings['pass'], [
-            PDO::ATTR_EMULATE_PREPARES => false,
-            PDO::MYSQL_ATTR_DIRECT_QUERY => false,
             PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION
         ]);
     }
